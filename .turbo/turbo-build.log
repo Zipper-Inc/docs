@@ -1,0 +1,66 @@
+$ next build
+- info Linting and checking validity of types...
+
+./components/feature.tsx
+12:3  Warning: 'Icon' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+- info Creating an optimized production build...
+[nextra] Found "_app.tsx" file, refactor it to "_app.mdx" for better performance.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+- info Compiled successfully
+- info Collecting page data...
+- info Generating static pages (0/36)
+- info Generating static pages (9/36)
+- info Generating static pages (18/36)
+- info Generating static pages (27/36)
+- info Generating static pages (36/36)
+- info Finalizing page optimization...
+
+Route (pages)                                    Size     First Load JS
+┌ ○ /                                            4.19 kB         486 kB
+├   /_app                                        0 B             397 kB
+├ ○ /404                                         181 B           397 kB
+├ ○ /advanced/customizing-response               1.74 kB         484 kB
+├ ○ /advanced/embedding                          1.74 kB         484 kB
+├ ○ /building-applets                            1.74 kB         484 kB
+├ ○ /building-applets/accepting-inputs           4.25 kB         486 kB
+├ ○ /building-applets/auth-and-user-context      2.01 kB         484 kB
+├ ○ /building-applets/config                     3.48 kB         486 kB
+├ ○ /building-applets/creating-an-applet         2.88 kB         485 kB
+├ ○ /building-applets/customizing-output         6.21 kB         488 kB
+├ ○ /building-applets/handler-functions          2.82 kB         485 kB
+├ ○ /building-applets/importing-packages         2.47 kB         485 kB
+├ ○ /building-applets/interactivity              4.01 kB         486 kB
+├ ○ /building-applets/inviting-collaborators     2.12 kB         484 kB
+├ ○ /building-applets/routing                    2.4 kB          485 kB
+├ ○ /building-applets/storage                    2.59 kB         485 kB
+├ ○ /connecting-to-other-tools                   1.75 kB         484 kB
+├ ○ /connecting-to-other-tools/airtable          1.75 kB         484 kB
+├ ○ /connecting-to-other-tools/github            2.02 kB         484 kB
+├ ○ /connecting-to-other-tools/openai            1.92 kB         484 kB
+├ ○ /connecting-to-other-tools/postgres          1.75 kB         484 kB
+├ ○ /connecting-to-other-tools/slack             2.02 kB         484 kB
+├ ○ /introduction/basic-concepts                 5.16 kB         487 kB
+├ ○ /introduction/deno-and-typescript            2.57 kB         485 kB
+├ ○ /introduction/examples/build-a-slack-app     5.64 kB         488 kB
+├ ○ /introduction/examples/interactive-applets   4.94 kB         487 kB
+├ ○ /introduction/examples/simple-input-output   2.94 kB         485 kB
+├ ○ /introduction/what-you-can-build             2.62 kB         485 kB
+├ ○ /running-an-applet/api-endpoints             2.7 kB          485 kB
+├ ○ /running-an-applet/deployments-and-versions  1.75 kB         484 kB
+├ ○ /running-an-applet/logs-and-monitoring       2.25 kB         484 kB
+├ ○ /running-an-applet/run-context               1.74 kB         484 kB
+├ ○ /running-an-applet/run-history               2 kB            484 kB
+├ ○ /running-an-applet/scheduling                2.29 kB         484 kB
+└ ○ /running-an-applet/sharing-output            1.94 kB         484 kB
++ First Load JS shared by all                    397 kB
+  ├ chunks/framework-900934921c83a903.js         45.2 kB
+  ├ chunks/main-453dded412c2bf73.js              32.6 kB
+  ├ chunks/pages/_app-5777e11c83cef5f9.js        318 kB
+  └ chunks/webpack-770b0e5f27999d4c.js           1.04 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
