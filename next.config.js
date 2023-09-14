@@ -6,10 +6,4 @@ const withNextra = require('nextra')({
 module.exports = withNextra({
   basePath: '/docs',
   reactStrictMode: true,
-  transpilePackages: [
-    '@zipper/framework',
-    '@zipper/types',
-    '@zipper/ui',
-    '@zipper/utils',
-  ],
 });
