@@ -22,7 +22,7 @@ const config: DocsThemeConfig = {
       <meta http-equiv="Content-Language" content="en" />
       <meta
         name="description"
-        content="Zipper turns Typescript functions into serverless web apps. UI, APIs, and auth all come standard."
+        content="Zipper turns TypeScript functions into serverless web apps. UI, APIs, and auth all come standard."
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@zipperinc" />
@@ -32,7 +32,7 @@ const config: DocsThemeConfig = {
       />
       <meta
         property="og:description"
-        content="Zipper turns Typescript functions into serverless web apps. UI, APIs, and auth all come standard."
+        content="Zipper turns TypeScript functions into serverless web apps. UI, APIs, and auth all come standard."
       />
       <meta name="apple-mobile-web-app-title" content="Zipper" />
       <link rel="icon" href="/docs/favicon.svg" />
